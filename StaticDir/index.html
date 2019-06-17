@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./../themes/theme.css">
+</head>
+
+<body>
+    <header>
+        <p>MongoDB myAdmin - cz 1 / połączenie z serwerem</p>
+        <button id="b_connect">Polącz z serwerem MongoDB</button>
+    </header>
+
+    <div id="left">
+        <div id="dbs">
+            <p>Databases: </p>
+            <button id="b_db_create">Stwórz nową baze danych</button>
+            <button id="b_db_delete">Usuń baze danych</button>
+            <div id="show_dbs">
+
+            </div>
+        </div>
+        <div id="colls">
+            <p>Collections: </p>
+            <button id="b_coll_create">Stwórz nową kolekcję</button>
+            <button id="b_coll_delete">Usuń kolekcję</button>
+            <div id="show_colls">
+
+            </div>
+        </div>
+    </div>
+    <div id="rigth">
+        <div id="info">
+
+        </div>
+        <div id="u_info">
+            <input type="text" id="u_login">
+            <input type="text" id="u_passwd">
+            <button id="u_send">Dodaj użytownika</button>
+        </div>
+        <div id="docs">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
